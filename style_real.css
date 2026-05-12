@@ -4665,3 +4665,30 @@ footer {
     object-fit: cover;  /* Faz a foto preencher o espaço sem distorcer */
     display: block;
 }
+
+/* CAUSAS */
+
+.causes {
+  margin-top: 1.5rem;
+  display: grid;
+  gap: 1rem;
+}
+
+.cause {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-left: 4px solid #c8a96e;
+  padding: 1rem 1.25rem;
+  border-radius: 4px;
+}
+
+.cause h3 {
+  color: #7a4a20;
+  margin-bottom: 0.35rem;
+}
+
+.cause p {
+  margin: 0;
+  font-size: 0.98rem;
+  color: #444;
+}
